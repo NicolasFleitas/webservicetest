@@ -16,8 +16,7 @@ export class ProveedorProvider {
   }
 
   obtenerdatos(){
-    return  this.http.get('http://192.168.2.228:8080/CEPI/usuarioslistar');
-    //return  this.http.get('https://192.168.5.22:8084/CEPI/usuarioslistar');
+    return  this.http.get('http://192.168.0.130:8084/CEPI/convocatoriaslistar');   
 }
 
 }
