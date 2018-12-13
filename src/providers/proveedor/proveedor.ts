@@ -16,7 +16,8 @@ export class ProveedorProvider {
   }
 
   obtenerdatos(){
-    return  this.http.get('http://192.168.0.130:8084/CEPI/convocatoriaslistar');   
+    // URL DEL JSON
+    return  this.http.get('http://cepi.sytes.net:8084/CEPI/convocatoriaslistar');   
 }
 
 }
